@@ -65,3 +65,112 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollSmoother.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body></html>
+  <title>RZA Driver Portfolio — Ultra Premium</title>
+  <meta name="description" content="Awwwards/F1 ilhamlı ultra premium portfolio sitesi" />
+
+  <!-- Font + Tailwind Utilities -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <div id="smooth-wrapper">
+    <main id="smooth-content">
+      <!-- SECTION 1 / HERO -->
+      <section id="hero" class="hero-container">
+        <div class="hero-layer hero-base" style="background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=80');">
+          <div class="hero-content">
+            <p class="hero-kicker">Formula DNA / 01</p>
+            <h1 class="hero-title">LANDO<br />MORRIS</h1>
+          </div>
+        </div>
+
+        <div id="heroOverlay" class="hero-layer hero-overlay" style="background-image:linear-gradient(115deg, rgba(223,255,0,0.2), rgba(0,255,102,0.12)), url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=80');">
+          <div class="hero-content">
+            <p class="hero-kicker neon">Formula DNA / 01</p>
+            <h1 class="hero-title neon">LANDO<br />MORRIS</h1>
+          </div>
+        </div>
+
+        <div class="hero-vignette"></div>
+        <div class="hero-gradient-line"></div>
+      </section>
+
+      <!-- SECTION 2 / TYPOGRAPHY REVEAL -->
+      <section id="manifesto" class="section section-manifesto">
+        <p class="section-label">Manifesto</p>
+        <h2 class="manifesto-title">
+          <span class="line-wrap"><span class="line">Saniyeler değil, milisaniyelerle yaşayan bir disiplin.</span></span>
+          <span class="line-wrap"><span class="line">Mühendislik, refleks ve karakter tek bir virajda buluşur.</span></span>
+          <span class="line-wrap"><span class="line">Pistin üstünde sadece hız değil, bir imza bırakılır.</span></span>
+        </h2>
+      </section>
+
+      <!-- SECTION 3 / PARALLAX GRID -->
+      <section id="gallery" class="section">
+        <p class="section-label">Visual Archive</p>
+        <div class="gallery-grid">
+          <article class="gallery-card span-5 parallax" data-speed="0.5"><img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1300&q=80" alt="Helmet" /></article>
+          <article class="gallery-card span-4 parallax" data-speed="1.2"><img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?auto=format&fit=crop&w=1300&q=80" alt="Race" /></article>
+          <article class="gallery-card span-3 parallax" data-speed="0.8"><img src="https://images.unsplash.com/photo-1544829099-b9a0c5303bea?auto=format&fit=crop&w=900&q=80" alt="Suit" /></article>
+          <article class="gallery-card span-3 parallax" data-speed="1.25"><img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=900&q=80" alt="Speed" /></article>
+          <article class="gallery-card span-4 parallax" data-speed="0.65"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1300&q=80" alt="Garage" /></article>
+          <article class="gallery-card span-5 parallax" data-speed="1.1"><img src="https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&w=1300&q=80" alt="Track" /></article>
+        </div>
+      </section>
+
+      <!-- SECTION 4 / SPLIT -->
+      <section id="splitShowcase" class="split-showcase">
+        <article class="split-panel split-left" data-side="left">
+          <h3>ON TRACK</h3>
+          <p>Maksimum agresyon, maksimum odak.</p>
+        </article>
+        <article class="split-panel split-right" data-side="right">
+          <h3>OFF TRACK</h3>
+          <p>Stil, yaşam, ritim ve kişisel dünya.</p>
+        </article>
+      </section>
+
+      <!-- SECTION 5 / CAROUSEL -->
+      <section id="carousel" class="section">
+        <p class="section-label">Helmet Concepts</p>
+        <div id="carouselWrap" class="carousel-wrap">
+          <div id="carouselTrack" class="carousel-track">
+            <figure class="carousel-card"><img src="https://images.unsplash.com/photo-1471295253337-3ceaaedca402?auto=format&fit=crop&w=900&q=80" alt="Helmet 1" /></figure>
+            <figure class="carousel-card"><img src="https://images.unsplash.com/photo-1471623432079-b009d30b6729?auto=format&fit=crop&w=900&q=80" alt="Helmet 2" /></figure>
+            <figure class="carousel-card"><img src="https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?auto=format&fit=crop&w=900&q=80" alt="Helmet 3" /></figure>
+            <figure class="carousel-card"><img src="https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?auto=format&fit=crop&w=900&q=80" alt="Helmet 4" /></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXTRA PHOTO PLACEHOLDER SECTION -->
+      <section id="photoDropzone" class="section">
+        <p class="section-label">Photos You Will Add</p>
+        <div class="photo-dropzone-grid">
+          <div class="photo-slot">Foto Alanı 01<br /><small>assets/img/photo-01.jpg</small></div>
+          <div class="photo-slot">Foto Alanı 02<br /><small>assets/img/photo-02.jpg</small></div>
+          <div class="photo-slot">Foto Alanı 03<br /><small>assets/img/photo-03.jpg</small></div>
+          <div class="photo-slot">Foto Alanı 04<br /><small>assets/img/photo-04.jpg</small></div>
+        </div>
+      </section>
+
+      <footer id="socialDeck" class="section social-deck">
+        <article class="social-card"><span>Instagram</span><strong>@driver</strong></article>
+        <article class="social-card"><span>X / Twitter</span><strong>@driver</strong></article>
+        <article class="social-card"><span>YouTube</span><strong>Driver Films</strong></article>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollSmoother.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
